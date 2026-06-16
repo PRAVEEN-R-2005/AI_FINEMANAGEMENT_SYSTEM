@@ -1,0 +1,69 @@
+.table {
+
+    background: white;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow:
+
+        0 6px 15px rgba(
+
+            0,
+
+            0,
+
+            0,
+
+            0.08
+
+        );
+
+}
+
+.table thead {
+
+    background: #1e293b;
+
+    color: white;
+
+}
+
+.table th {
+
+    padding: 18px;
+
+    font-size: 17px;
+
+}
+
+.table td {
+
+    padding: 18px;
+
+    vertical-align: middle;
+
+}
+
+.table tbody tr {
+
+    transition: .3s;
+
+}
+
+.table tbody tr:hover {
+
+    background: #f8fafc;
+
+}
+
+.badge {
+
+    padding: 8px 15px;
+
+    font-size: 14px;
+
+    border-radius: 20px;
+
+}

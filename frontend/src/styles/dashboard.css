@@ -1,0 +1,37 @@
+body {
+    background: #f5f7fb;
+}
+
+.main-content {
+
+    margin-left: 250px;
+
+    margin-top: 80px;
+
+    padding: 30px;
+
+    min-height: 100vh;
+}
+
+.dashboard-title {
+
+    font-size: 40px;
+
+    font-weight: 700;
+
+    margin-bottom: 30px;
+
+    color: #1e293b;
+}
+
+.chart-card {
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    box-shadow: 0 6px 15px rgba(0,0,0,.08);
+
+}

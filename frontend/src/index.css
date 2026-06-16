@@ -1,0 +1,165 @@
+/* ========================
+   Reset
+======================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+/* ========================
+   Body
+======================== */
+
+body {
+
+    background: #f4f7fc;
+
+    font-family:
+
+        "Segoe UI",
+
+        sans-serif;
+
+    overflow-x: hidden;
+
+}
+
+
+/* ========================
+   Links
+======================== */
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+/* ========================
+   Lists
+======================== */
+
+ul {
+
+    list-style: none;
+
+}
+
+
+/* ========================
+   App Layout
+======================== */
+
+.app-container {
+
+    display: flex;
+
+}
+
+
+/* ========================
+   Main Content
+======================== */
+
+.main-content {
+
+    margin-left: 250px;
+
+    margin-top: 80px;
+
+    min-height: 100vh;
+
+    width: 100%;
+
+    padding: 30px;
+
+}
+
+
+/* ========================
+   Login Container
+======================== */
+
+.login-container {
+
+    width: 100%;
+
+}
+
+
+/* ========================
+   Scrollbar
+======================== */
+
+::-webkit-scrollbar {
+
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+
+    background: #e5e7eb;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #64748b;
+
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #334155;
+
+}
+
+
+/* ========================
+   Dark Mode
+======================== */
+
+body.dark {
+
+    background: #0f172a;
+
+    color: white;
+
+}
+
+
+body.light {
+
+    background: #f4f7fc;
+
+    color: black;
+
+}
+
+
+/* ========================
+   Responsive
+======================== */
+
+@media (max-width: 768px) {
+
+    .main-content {
+
+        margin-left: 0;
+
+        padding: 15px;
+
+    }
+
+}

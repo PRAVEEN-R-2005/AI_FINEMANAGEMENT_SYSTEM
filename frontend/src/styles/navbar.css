@@ -1,0 +1,47 @@
+.navbar-custom {
+
+    height: 80px;
+
+    background: white;
+
+    box-shadow:
+
+        0 3px 12px rgba(
+
+            0,
+
+            0,
+
+            0,
+
+            0.08
+
+        );
+
+    padding-left: 30px;
+
+    padding-right: 30px;
+
+}
+
+.navbar-title {
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+    color: #1e293b;
+
+}
+
+.navbar-icons {
+
+    display: flex;
+
+    gap: 25px;
+
+    font-size: 28px;
+
+    cursor: pointer;
+
+}

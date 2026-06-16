@@ -1,0 +1,82 @@
+/* =========================
+   Stat Card
+========================= */
+
+.stat-card {
+
+    border: none;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    transition: all 0.3s ease;
+
+    color: white;
+
+}
+
+.stat-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+
+}
+
+.stat-card .card-body {
+
+    padding: 25px;
+
+}
+
+.stat-title {
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    opacity: 0.9;
+
+    margin-bottom: 10px;
+
+}
+
+.stat-value {
+
+    font-size: 34px;
+
+    font-weight: bold;
+
+}
+
+.stat-icon {
+
+    font-size: 45px;
+
+    opacity: 0.8;
+
+}
+
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 768px) {
+
+    .stat-value {
+
+        font-size: 28px;
+
+    }
+
+    .stat-icon {
+
+        font-size: 35px;
+
+    }
+
+}
